@@ -7,8 +7,6 @@ WORKDIR /app
 # Copy the Jupyter Notebook file into the container
 COPY lab3_classification.ipynb /app/
 COPY lab3_regression.ipynb /app/
-COPY lab3_regression_solutions.ipynb /app/
-COPY lab3_classification_solution.ipynb /app/
 COPY Regression_Tutorial.ipynb /app/
 COPY Classification_Tutorial.ipynb /app/
 
