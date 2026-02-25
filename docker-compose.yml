@@ -5,5 +5,4 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ./classification_pca.ipynb:/app/classification_pca.ipynb
-      - ./data:/app/data
+      - ./:/app/
